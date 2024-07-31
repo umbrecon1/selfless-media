@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            SELFLESS MEDIA
+            SELFLESS
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -43,34 +43,43 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/videos'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Videos
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/photography'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Photography
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/music'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Music
               </Link>
             </li>
 
             <li>
               <Link
-                to='/sign-up'
+                to='/contact'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Contact
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
         </div>
       </nav>
     </>
