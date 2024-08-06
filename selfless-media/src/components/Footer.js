@@ -6,31 +6,10 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>E-mail</Link>
-          </div>
-        </div>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Vimeo</Link>
-            <Link to='/'>X</Link>
-          </div>
-        </div>
-      </div>
+      
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              SM
-              <i class='fab fa-typo3' />
-            </Link>
-          </div>
+          
           <small class='website-rights'>SELFLESS MEDIA © 2024</small>
           <div class='social-icons'>
             <Link

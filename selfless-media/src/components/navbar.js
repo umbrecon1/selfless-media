@@ -50,15 +50,7 @@ function Navbar() {
                 Videos
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/photography'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Photography
-              </Link>
-            </li>
+            
             <li className='nav-item'>
               <Link
                 to='/music'
