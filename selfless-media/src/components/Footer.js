@@ -14,7 +14,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='https://www.facebook.com/selflessmediagroup/'
               target='_blank'
               aria-label='Facebook'
             >
@@ -22,31 +22,17 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='https://www.instagram.com/selflessmedia'
               target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
             </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
+          
+      
             <Link
               class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+              to='https://www.linkedin.com/in/christhompsonvideo'
               target='_blank'
               aria-label='LinkedIn'
             >

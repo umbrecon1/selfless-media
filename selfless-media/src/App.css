@@ -9,10 +9,7 @@
   font-style: normal;
 }
 
-.home,
-.videos,
-.photography,
-.music {
+.home {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -20,26 +17,4 @@
   font-size: 3rem;
 }
 
-.videos {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.photography {
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.music {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
+ 

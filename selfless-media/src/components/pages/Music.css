@@ -1,84 +1,62 @@
+
+/* Body & Image List Styles
+-------------------------------------------------------------- */
 body {
-    background-size: cover;
-    color: white;
-    background: linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 65%, rgba(255,255,255,1) 100%);
-  
+  background: black;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background: black;
+  margin: 20px;
+  padding-bottom: 30px;
 }
 
 h1 {
-    margin-bottom: 30px;
-    margin-top: 30px;
+  padding-top: 20px;
+  color: white;
+
 }
 
-.img-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  }
-  .img-list li {
-  border: 5px solid transparent;
-  box-sizing: border-box;
-  width: 33.33%;
-  float: left;
-  position: relative;
-  cursor: pointer;
-  }
-  .img-list img {
+a {
+  text-decoration: underline;
+  color: lightgray;
+}
+
+
+
+
+
+div > img {
   max-width: 100%;
-  vertical-align: middle;
+  height: 100%;
+  width: auto;
+  object-fit: fill;
+  border: 0.5px solid lightgray;
+}
+
+@media screen and (min-width: 768px) {
+
+  .gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    
   }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+  }
+
+
   
-  /* Image Placeholder Styles
-  -------------------------------------------------------------- */
-  .img-placeholder:before,
-  .img-placeholder:after {
-  padding-top: 33.33%;
-  content: "";
-  display: block;
-  }  
-  .img-placeholder {
-  background: #222;
-  box-shadow: 0 0 0 8px #222 inset, 0 0 0 9px #333 inset;
-  color: #444;
-  line-height: 0;
-  text-align: center;
-  display: block;
-  }
-  
-  /* The hover effect
-  -------------------------------------------------------------- */
-  .img-list li:before {
-  transition: all .5s ease;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #333;
-  transform: scale(0);
-  }
-  .img-list li:hover:before {
-  opacity: .5;
-  transform: scale(1);
-  }
-  .img-list li:after {
-  transition: all .6s ease .2s;
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  right: 8px;
-  bottom: 8px;
-  border: 1px solid #aaa;
-  background: #000;
-  opacity: 0;
-  transform: scale(0);
-  }
-  .img-list li:hover:after {
-  opacity: .35;
-  transform: scale(1);
-  }
+}
 
 
 
